@@ -31,12 +31,14 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
    cd <repo-klasoru>
 
 2. Gerekli kütüphaneleri yükleyin:
-Bash
-pip install numpy matplotlib
+   
+   ```bash
+   pip install numpy matplotlib
 
-3. Simülasyonu başlatın:
-Bash
-python main.py
+4. Simülasyonu başlatın:
+   
+   ```bash
+   python main.py
 
 📊 Çıktılar ve Analiz
 Program çalıştığında terminal üzerinde her sunucu için öğrenilmiş son Q-Değerlerini (tahmini latency) gösterir ve ardından bir performans analizi grafiği (softmax_analysis.png) üretir. Grafik, algoritmanın zaman ilerledikçe sistemi öğrenerek ortalama gecikme süresini nasıl optimize ettiğini kümülatif olarak sergiler.
